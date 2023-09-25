@@ -40,6 +40,7 @@
 	|| BX_PLATFORM_OSX                  \
 	|| BX_PLATFORM_RPI                  \
 	|| BX_PLATFORM_WINDOWS              \
+	|| BX_PLATFORM_SWITCH               \
 	)
 #define BGFX_PLATFORM_SUPPORTS_GLSL (0  \
 	|| BX_PLATFORM_BSD                  \

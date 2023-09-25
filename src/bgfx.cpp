@@ -299,7 +299,7 @@ namespace bgfx
 	};
 
 	static ThreadData s_threadIndex(0);
-#elif !BGFX_CONFIG_MULTITHREADED
+#elif !BGFX_CONFIG_MULTITHREADED || BX_PLATFORM_SWITCH
 	static uint32_t s_threadIndex(0);
 #else
 	static BX_THREAD_LOCAL uint32_t s_threadIndex(0);

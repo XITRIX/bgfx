@@ -11,6 +11,7 @@
 	|| BX_PLATFORM_BSD                                                                      \
 	|| BX_PLATFORM_LINUX                                                                    \
 	|| BX_PLATFORM_NX                                                                       \
+	|| BX_PLATFORM_SWITCH                                                                   \
 	|| BX_PLATFORM_RPI                                                                      \
 	) )
 
